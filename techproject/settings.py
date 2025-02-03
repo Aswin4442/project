@@ -81,6 +81,8 @@ MIDDLEWARE = [
     'social_django.middleware.SocialAuthExceptionMiddleware',
 
 ]
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Or another session backend
+
 # LOGIN_REDIRECT_URL = 'index'  # Redirect to homepage after login
 ROOT_URLCONF = 'techproject.urls'
 
