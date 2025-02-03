@@ -68,7 +68,7 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.getenv("SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET")
 LOGIN_REDIRECT_URL = '/cart/'  # Redirects to cart page after login
 LOGOUT_REDIRECT_URL = '/'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_REDIRECT_URI = "http://127.0.0.1:8009/oauth/complete/google-oauth2/"# LOGOUT_REDIRECT_URL = '/'
+SOCIAL_AUTH_GOOGLE_OAUTH2_REDIRECT_URI = "http://127.0.0.1:8000/oauth/complete/google-oauth2/"# LOGOUT_REDIRECT_URL = '/'
 LOGIN_URL = 'user_login'  # Change to your actual login URL
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
