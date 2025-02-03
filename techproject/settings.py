@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-y@soey$q*r15fy$_y$12i4p05b3jz0kl8xuo0_4litgezxg2ez
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['techifyproject.onrender.com']
 
 CAPTCHA_FONT_SIZE = 40
 CAPTCHA_LENGTH = 6
